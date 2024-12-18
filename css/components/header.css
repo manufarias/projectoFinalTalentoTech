@@ -1,0 +1,15 @@
+.header {
+  isolation: isolate;
+}
+
+.main__header {
+  padding-block-start: 2rem;
+  position: sticky;
+  top: 0;
+  background-color: var(--color-fondo);
+  z-index: 2;
+}
+
+.enlaces {
+  text-align: center;
+}

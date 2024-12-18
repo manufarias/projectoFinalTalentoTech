@@ -1,0 +1,42 @@
+.carrito {
+  display: none;
+}
+
+.carrito.visible {
+  max-inline-size: 1200px;
+  margin-inline: auto;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 1.5rem;
+
+  & > *:last-child {
+    place-self: center;
+  }
+}
+
+.pedido {
+  display: flex;
+  align-items: baseline;
+}
+
+.pedido__resumen {
+  min-inline-size: max-content;
+}
+
+.wrapper {
+  display: none;
+}
+
+.wrapper.visible {
+  display: block;
+  background-color: #601701;
+  color: #fff;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  position: sticky;
+  bottom: 0;
+}

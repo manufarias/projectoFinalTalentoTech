@@ -1,0 +1,212 @@
+/* CSS Reset 2024 */
+
+/* Box Model Reset */
+/* Apply box-sizing: border-box to all elements and their ::before and ::after pseudo-elements.
+    Remove default margin, padding, and border from all elements. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* HTML and Body Defaults */
+/* Set height to 100% for html and body to ensure full height layout. */
+html,
+body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+/* Disable text size adjustments in various browsers. */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Typography Reset */
+/* Set font-size to 100%, inherit font properties, and set vertical-align to baseline for various elements. */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Set line-height and text-wrap for heading elements. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+/* Ensure text elements break words properly. */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* Set text-wrap for paragraphs. */
+p {
+  text-wrap: pretty;
+}
+
+/* Set line-height and font smoothing for body. */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* List Reset */
+/* Remove default list styles from ordered and unordered lists. */
+ol,
+ul,
+ul[role="list"],
+ol[role="list"],
+ul[role="group"],
+ol[role="group"] {
+  list-style: none;
+}
+
+/* Media Element Reset */
+/* Ensure media elements are displayed as block and fit within their container. */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Form Element Reset */
+/* Inherit font properties for form elements. */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Set minimum height for textareas without rows attribute. */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anchor and Interactive Element Reset */
+/* Set default text decoration and color for anchor elements without class. */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* Set line-height for button, input, and label elements. */
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+/* Table Reset */
+/* Collapse borders and remove spacing between table cells. */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Quote Reset */
+/* Remove default quotes from blockquote and q elements. */
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+/* HTML5 Display Reset */
+/* Ensure HTML5 elements are displayed as block. */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* Miscellaneous */
+/* Set scroll margin for target elements. */
+:target {
+  scroll-margin-block: 5ex;
+}
+
+/* Ensure root elements are isolated. */
+#root,
+#__next {
+  isolation: isolate;
+}

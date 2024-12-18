@@ -1,0 +1,58 @@
+body {
+  margin-block: 1rem;
+  margin-inline: auto;
+  max-inline-size: 1200px;
+
+  display: grid;
+  grid-template-rows: 70vh auto auto auto;
+  grid-template-areas: "header" "main" "citas" "email" "footer";
+}
+
+body > * + * {
+  margin-block-start: 1rem;
+}
+
+body > * {
+  margin-block-end: 2rem;
+
+  padding-block: 1rem;
+  padding-inline: 1rem;
+}
+
+.header {
+  grid-row: header;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+picture {
+  margin-block-end: -2.5px;
+}
+
+.main {
+  grid-row: main;
+  isolation: isolate;
+}
+
+.enlaces {
+  display: flex;
+  gap: 1rem;
+
+  padding-block: 1rem;
+}
+
+.productos__listado {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: var(--space-2xl);
+  margin-block-start: var(--space-xl);
+}
+.footer {
+  grid-row: footer;
+}

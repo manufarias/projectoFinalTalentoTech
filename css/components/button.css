@@ -1,0 +1,42 @@
+.botonCompra {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex: 0;
+}
+
+button {
+  display: block;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+
+  background-color: transparent;
+  border: 1px solid var(--color-texto-muydebil);
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.quantity {
+  display: flex;
+  gap: 1rem;
+}
+
+.Qty {
+  font-size: var(--step-1);
+}
+
+.alternativo {
+  color: #fff;
+  border: 1px solid #fff;
+  max-inline-size: max-content;
+}
+
+.vaciar {
+  color: #fff;
+  border: none;
+  display: flex;
+  gap: 1rem;
+  min-inline-size: max-content;
+}

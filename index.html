@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e4f0621380.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="main.css" />
+    <script src="/main.js" defer></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="topbar">
+        <span class="logo">bueno.</span>
+        <picture
+          ><img
+            src="/assets/svg/cafebueno.svg"
+            alt="Dibujo lineal de una taza de café con la bebida de color marrón oscuro. La taza es blanca y tiene un asa pequeña.o"
+        /></picture>
+      </div>
+      <div class="hero">
+        <p class="hero__since">Desde 2024</p>
+        <h1 class="hero__tag">Buen café y punto.</h1>
+      </div>
+    </header>
+    <main class="main">
+      <header class="main__header">
+        <nav>
+          <ul class="enlaces">
+            <li><a href="#productos">Nuestros cafés</a></li>
+            <li><a href="#quotes">Qué dice la gente</a></li>
+            <li><a href="#newsletter">Aprende</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="productos__listado" id="productos">
+        <!-- producto 1 -->
+        <article class="producto">
+          <section class="producto__descripcion">
+            <h2 class="producto__nombre">
+              Mágia andina - <span>$25.250 el kilo</span>
+            </h2>
+            <!-- descripcion del product0 -->
+            <dl class="descripciones">
+              <!-- ocultar para screenreader -->
+              <p class="producto__inicial">M</p>
+              <div class="descripcion">
+                <dt>Origen</dt>
+                <dd>Caturra, Colombia</dd>
+              </div>
+              <div class="descripcion">
+                <dt>Variedad</dt>
+                <dd>Caramelo & Cítrico</dd>
+              </div>
+              <div class="descripcion">
+                <dt>Procesamiento</dt>
+                <dd>Lavado doble fermetación</dd>
+              </div>
+              <div class="descripcion">
+                <dt>Altitud</dt>
+                <dd>1400 - 1900 mts</dd>
+              </div>
+            </dl>
+          </section>
+          <section class="producto__detalle">
+            <img
+              src="/assets/svg/Producto1.svg"
+              alt="imagen del producto"
+              style="max-width: 250px"
+            />
+            <div class="botonCompra">
+              <button class="quantity">
+                <span class="decrease Qty">-</span
+                ><span class="actual Qty">0</span
+                ><span class="increase Qty">+</span>
+              </button>
+            </div>
+          </section>
+        </article>
+        <!-- producto 2 -->
+        <article class="producto">
+          <section class="producto__descripcion">
+            <h2 class="producto__nombre">
+              Boa sorte - <span>$20.250 el kilo</span>
+            </h2>
+            <!-- descripcion del product0 -->
+            <dl class="descripciones">
+              <!-- ocultar para screenreader -->
+              <p class="producto__inicial">B</p>
+              <div class="descripcion">
+                <dt>Origen</dt>
+                <dd>Caturra, Colombia</dd>
+              </div>
+              <div class="descripcion">
+                <dt>Variedad</dt>
+                <dd>Caramelo & Cítrico</dd>
+              </div>
+              <div class="descripcion">
+                <dt>Procesamiento</dt>
+                <dd>Lavado doble fermetación</dd>
+              </div>
+              <div class="descripcion">
+                <dt>Altitud</dt>
+                <dd>1400 - 1900 mts</dd>
+              </div>
+            </dl>
+          </section>
+          <section class="producto__detalle">
+            <img
+              src="/assets/svg/Producto2.svg"
+              alt="imagen del producto"
+              style="max-width: 250px"
+            />
+            <div class="botonCompra">
+              <button class="quantity">
+                <span class="decrease Qty">-</span
+                ><span class="actual Qty">0</span
+                ><span class="increase Qty">+</span>
+              </button>
+            </div>
+          </section>
+        </article>
+        <!-- producto 3 -->
+        <article class="producto">
+          <section class="producto__descripcion">
+            <h2 class="producto__nombre">
+              Nuestra casa - <span>$18.250 el kilo</span>
+            </h2>
+            <!-- descripcion del product0 -->
+            <dl class="descripciones">
+              <!-- ocultar para screenreader -->
+              <p class="producto__inicial">N</p>
+              <div class="descripcion">
+                <dt>Origen</dt>
+                <dd>Caturra, Colombia</dd>
+              </div>
+              <div class="descripcion">
+                <dt>Variedad</dt>
+                <dd>Caramelo & Cítrico</dd>
+              </div>
+              <div class="descripcion">
+                <dt>Procesamiento</dt>
+                <dd>Lavado doble fermetación</dd>
+              </div>
+              <div class="descripcion">
+                <dt>Altitud</dt>
+                <dd>1400 - 1900 mts</dd>
+              </div>
+            </dl>
+          </section>
+          <section class="producto__detalle">
+            <img
+              src="/assets/svg/Producto3.svg"
+              alt="imagen del producto"
+              style="max-width: 250px"
+            />
+            <div class="botonCompra">
+              <button class="quantity">
+                <span class="decrease Qty">-</span
+                ><span class="actual Qty">0</span
+                ><span class="increase Qty">+</span>
+              </button>
+            </div>
+          </section>
+        </article>
+      </section>
+    </main>
+
+    <div class="quotes" id="quotes">
+      <figure>
+        <blockquote class="cita">
+          "No sabía lo que era el café verídico. Ahora no puedo volver atrás."
+        </blockquote>
+        <figcaption>
+          <cite>Octavio</cite>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="newsletter" id="newsletter">
+      <form class="sign-up-form">
+        <label for="email"
+          >Si realmente quieres aprender como es el sabor del verdadero café,
+          nosotros te enseñamos como.</label
+        >
+        <div class="sign-up-form__controls">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            autocapitalize="none"
+            autocorrect="off"
+            pattern="[^@]+@[^\.]+\..+"
+            required
+            placeholder="tunombre@correo.com"
+          />
+          <button>Quiero aprender</button>
+        </div>
+      </form>
+    </div>
+    <footer class="footer">
+      <div class="villian">
+        <p class="villian__since">Desde 2024</p>
+        <h1 class="villian__tag">Buen café y punto.</h1>
+      </div>
+    </footer>
+
+    <div class="wrapper">
+      <div class="carrito">
+        <div class="carrito__pedido">
+          <div class="pedido">
+            <h3 class="pedido__resumen">
+              Total: <span id="carrito-total">0</span> cafes
+            </h3>
+            <button class="vaciar">
+              <i class="fa-regular fa-trash-can"></i>Eliminar carrito
+            </button>
+          </div>
+          <details>
+            <summary>Ver detalle</summary>
+            <ul id="carrito-items"></ul>
+          </details>
+        </div>
+        <button id="confirmar-compra" class="alternativo">
+          Confirmar Compra
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

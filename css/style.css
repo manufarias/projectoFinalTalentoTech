@@ -1,0 +1,96 @@
+/* Escala tipografica */
+:root {
+  --step--2: clamp(0.7813rem, 0.7747rem + 0.0326vw, 0.8rem);
+  --step--1: clamp(0.9375rem, 0.9158rem + 0.1087vw, 1rem);
+  --step-0: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+  --step-1: clamp(1.35rem, 1.2761rem + 0.3696vw, 1.5625rem);
+  --step-2: clamp(1.62rem, 1.5041rem + 0.5793vw, 1.9531rem);
+  --step-3: clamp(1.944rem, 1.771rem + 0.8651vw, 2.4414rem);
+  --step-4: clamp(2.3328rem, 2.0827rem + 1.2504vw, 3.0518rem);
+  --step-5: clamp(2.7994rem, 2.4462rem + 1.7658vw, 3.8147rem);
+  --step-6: clamp(3.3592rem, 2.8691rem + 2.4507vw, 4.7684rem);
+  --step-7: clamp(4.0311rem, 3.36rem + 3.3555vw, 5.9605rem);
+  --step-8: clamp(4.8373rem, 3.9283rem + 4.5448vw, 7.4506rem);
+  --step-9: clamp(5.8048rem, 4.5844rem + 6.1017vw, 9.3132rem);
+  --step-10: clamp(6.9657rem, 5.3393rem + 8.1319vw, 11.6415rem);
+}
+
+/* Escala espaciado */
+/* @link https://utopia.fyi/space/calculator?c=320,18,1.2,1240,20,1.25,10,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+  --space-3xs: clamp(0.3125rem, 0.3125rem + 0vw, 0.3125rem);
+  --space-2xs: clamp(0.5625rem, 0.5408rem + 0.1087vw, 0.625rem);
+  --space-xs: clamp(0.875rem, 0.8533rem + 0.1087vw, 0.9375rem);
+  --space-s: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+  --space-m: clamp(1.6875rem, 1.6223rem + 0.3261vw, 1.875rem);
+  --space-l: clamp(2.25rem, 2.163rem + 0.4348vw, 2.5rem);
+  --space-xl: clamp(3.375rem, 3.2446rem + 0.6522vw, 3.75rem);
+  --space-2xl: clamp(4.5rem, 4.3261rem + 0.8696vw, 5rem);
+  --space-3xl: clamp(6.75rem, 6.4891rem + 1.3043vw, 7.5rem);
+}
+
+/* Paleta de colores */
+
+:root {
+  --color-fondo: #f5f5f0;
+  --color-texto-defecto: #19160e;
+  --color-texto-debil: #19160e80;
+  --color-texto-muydebil: #19160e30;
+  --color-texto-acento: #f83b02;
+}
+
+/* estilos tipograficos */
+
+body {
+  font-family: sans-serif;
+  font-size: var(--step-0);
+  color: var(--color-texto-defecto);
+  background-color: var(--color-fondo);
+}
+
+.logo {
+  font-weight: 900;
+}
+
+h1 {
+  font-size: var(--step-8);
+  font-weight: 900;
+  line-height: 100%;
+  text-indent: -7px;
+  letter-spacing: -0.125px;
+}
+
+h2 {
+  font-size: var(--step-3);
+  font-weight: 900;
+}
+
+h3 {
+  font-size: var(--step-2);
+}
+
+.producto__inicial {
+  font-size: calc(11.6rem * 1.4);
+  line-height: 100%;
+  top: 128px;
+  left: 140px;
+}
+
+@media (max-width: 70rem) {
+  .producto__inicial {
+    display: none;
+  }
+}
+.hero__since {
+  letter-spacing: 0.5px;
+}
+
+/* Composición */
+.header {
+  border-block-end: 1px solid var(--color-texto-debil);
+}
+
+.topbar {
+  border-block-end: 1px solid var(--color-texto-muydebil);
+}

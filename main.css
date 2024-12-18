@@ -1,0 +1,11 @@
+@import url(/css/reset.css);
+@import url(/css/layout.css);
+@import url(/css/style.css);
+/* Componentes */
+@import url(/css/components/articles.css);
+@import url(/css/components/header.css);
+@import url(/css/components/carrito.css);
+@import url(/css/components/button.css);
+@import url(/css/components/quotes.css);
+@import url(/css/components/footer.css);
+@import url(/css/components/form.css);

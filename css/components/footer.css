@@ -1,0 +1,17 @@
+.footer {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding-block: var(--space-2xl);
+
+  background-color: #212121;
+}
+
+.villian {
+  margin-inline: auto;
+  max-inline-size: 1200px;
+  padding-block: var(--space-2xl);
+
+  border-block: 1px solid #fafafa50;
+
+  color: #fafafa;
+}

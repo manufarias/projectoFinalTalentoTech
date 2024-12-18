@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product_name": "Mágia andina",
+      "product_origin": "Caturra, Colombia",
+      "product_type": "Caramelo, Cítrico",
+      "product_source": "Lavado doble fermentación",
+      "product_altitude": "1400 - 1900 mts"
+    },
+    {
+      "id": 2,
+      "product_name": "Boa Fazenda",
+      "product_origin": "Curitiba, Brazil",
+      "product_type": "Naranja, Chocolate",
+      "product_source": "Natural",
+      "product_altitude": "1200 - 1300 mts"
+    },
+    {
+      "id": 3,
+      "product_name": "Bourbón Rosado",
+      "product_origin": "Kantunati, Bolivia",
+      "product_type": "Lavado con doble fermentación",
+      "product_source": "Lavado",
+      "product_altitude": "1650 - 1900 mts"
+    }
+  ]
+}
